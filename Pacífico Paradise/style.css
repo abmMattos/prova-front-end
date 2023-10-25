@@ -1,0 +1,132 @@
+header {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+#logo {
+   
+}
+#titulo {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: orangered;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#lista-menu{
+    display: flex;
+}
+#lista-menu li {
+    list-style-type: none;
+    padding-right: 10%;
+    
+}
+#lista-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+#lista-menu a:hover {
+    color: orangered;
+}
+#description {
+    display: flex;
+    align-self: center;
+}
+#about-us {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-us p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#atracoes {
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-atracao img {
+    width: 70vw;
+}
+.more-info {
+    padding: 1em 3em;
+    border-style: none;
+    background-color: rgba(255, 68, 0, 0.589);
+}
+.more-info:hover {
+    background-color: rgba(255, 68, 0, 0.281);
+
+}
+.more-info a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 2em;
+}
+#titulo-galeria {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#galeria {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+#galeria img {
+    height: 50vh;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+#titulo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs button {
+    margin-top: 20px;
+    padding: 1em 3em;
+    border-style: none;
+    background-color: rgba(255, 68, 0, 0.589);
+}
+.inputs button:hover {
+    background-color: rgba(255, 68, 0, 0.281);
+}
+.inputs input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#mensagem {
+    margin-top: 10px;
+}
